@@ -14,7 +14,7 @@ namespace communityforms
 
             LoadCitizenList();
         }
-
+         
         private void LoadCitizenList()
         {
             citizens = SqliteDAO.loadCitizens();
